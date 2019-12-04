@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 
 public class TestMethodsClass {
   static {
-    System.load(Paths.get("dylib/target/debug/librust_jni_java_dylib.so").toAbsolutePath().toString());
+    System.load(Paths.get("dylib/target/debug/librust_jni_java_dylib.dylib").toAbsolutePath().toString());
   }
 
   public native void testNativeFunction();

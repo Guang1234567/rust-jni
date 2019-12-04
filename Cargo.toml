@@ -4,3 +4,5 @@ members = [
     "rust-jni",
     "java",
 ]
+
+exclude = ["examples/java-lib"]
